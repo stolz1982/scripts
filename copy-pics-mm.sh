@@ -22,7 +22,7 @@ done
 for f in $TARGET/* ; do
 	name=`/usr/bin/basename $f`
 	#text postition starting right vertical, right horizontal
-	mogrify -font helvetica -fill red -pointsize 75 -draw "text 20,100 '$name'" $f
+	mogrify -font helvetica -fill red -pointsize 125 -draw "text 20,100 '$name'" $f
 done
 
 #restart of MagicMirror
