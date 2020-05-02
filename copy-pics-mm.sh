@@ -27,11 +27,14 @@ YMD=`/bin/date +%Y-%m-%d`
 YMD=$(/bin/date -d "$YMD -5 years" +%Y-%m-%d)
 copypics $YMD
 
+#convert(add partial filename which reflects date stamp) pics in target dir
 
-
-
-
-
+for f in $TARGET/* ; do
+	name=`/usr/bin/basename $f`
+	echo "$name - $f"
+	#text postition starting right vertical, right horizontal
+	mogrify -font helvetica -fill red -pointsize 75 -draw "text 20,100 '$name'" $f
+done
 
 #restart of MagicMirror
 /usr/bin/pm2 restart magicmirror-startup-script
