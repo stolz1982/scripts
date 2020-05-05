@@ -5,7 +5,7 @@ TARGET_DIR="/media/homes/Bilder/00-PICAM-DB"
 CHECK_FILE="check.datei"
 MOUNT_DIR="/media/homes"
 
-if [ -f $TARGET_DIR$CHECK_FILE ]; then
+if [ -f $TARGET_DIR/$CHECK_FILE ]; then
 	
 	/bin/echo "$TARGET_DIR/$CHECK_FILE exists"
 
