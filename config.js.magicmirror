@@ -57,7 +57,7 @@ var config = {
 			config: {
 				location: 'Nauen',
 				locationID: '2866930',
-				appid: 'fa80b25eaa81772cad9a62f841bffe4d'
+				appid: 'APPID noch hinzufügen'
 			}
 		},
 		{
@@ -68,7 +68,7 @@ var config = {
 				calendars: [
 					{
 						symbol: 'calendar',
-						url: 'https://calendar.google.com/calendar/ical/stolz1982%40gmail.com/private-5ce26138a09692504be756751493cb7d/basic.ics'
+						url: 'privat ungegeheime CAL Adresse hier eingeben'
 					}
 				]
 			}
